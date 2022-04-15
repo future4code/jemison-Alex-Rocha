@@ -1,4 +1,5 @@
 //1. 
+
 const bool1 = true
 const bool2 = false
 const bool3 = !bool2
@@ -24,6 +25,7 @@ let segundoNumero = prompt("Digite outro numero!")
 const soma = primeiroNumero + segundoNumero
 
 console.log(soma)
+
 //3. Solução:
 let primeiroNumero = Number(prompt("Digite um numero!"))
 let segundoNumero = Number(prompt("Digite outro numero!"))
