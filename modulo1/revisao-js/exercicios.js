@@ -4,15 +4,20 @@
 
 
 // EXERCÍCIO 01
+// Escreva uma função que recebe um array como parâmetro 
+// e retorna a quantidade de elementos que há nele.
 function retornaTamanhoArray(array) {
    return array.length
 }
 
 // EXERCÍCIO 02
+// Escreva uma função que recebe um array como parâmetro 
+// e retorne este array invertido.
 function retornaArrayInvertido(array) {
-  
-}
-
+   // let array = [1, 2, 5, 7, 9, 4];
+   // let arrayInvertido = array.reverse();
+     return(array.reverse())
+ }
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
   
