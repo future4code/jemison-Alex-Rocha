@@ -14,12 +14,24 @@ function retornaTamanhoArray(array) {
 // Escreva uma função que recebe um array como parâmetro 
 // e retorne este array invertido.
 function retornaArrayInvertido(array) {
+   /* function retornaArrayInvertido(array) {
+      for (let index = array.length; index >=0 ; index --){
+         let arrayInvertida = []
+         arrayInvertida.push(index)
+         return arrayInvertida
+      }
+      
+    } */
    // let array = [1, 2, 5, 7, 9, 4];
    // let arrayInvertido = array.reverse();
      return(array.reverse())
  }
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
+  function comparador (a,b) {
+     return a-b
+  }
+   return(array.sort(comparador))
   
 }
 
