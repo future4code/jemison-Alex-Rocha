@@ -27,6 +27,8 @@ function retornaArrayInvertido(array) {
      return(array.reverse())
  }
 // EXERCÍCIO 03
+// Escreva uma função que recebe um array de 
+// números e retorne o array com os números em ordem crescente. 
 function retornaArrayOrdenado(array) {
   function comparador (a,b) {
      return a-b
@@ -36,7 +38,18 @@ function retornaArrayOrdenado(array) {
 }
 
 // EXERCÍCIO 04
+// Escreva uma função que receba um array de números e retorne 
+// um novo array com apenas os números pares desse array de entrada.
 function retornaNumerosPares(array) {
+   let novaarray
+  for(let index = 0; index <= array.length ; index ++){
+   if(array[index]%2){
+      novaarray.push(index)
+      // return novaarray
+  }
+   return novaarray
+
+   }
   
 }
 
