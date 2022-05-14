@@ -71,10 +71,19 @@ function retornaNumerosParesElevadosADois(array) {
 }
 
 // EXERCÍCIO 06
+// Escreva uma função que receba um array de números e retorne o maior 
+// número dele.
 function retornaMaiorNumero(array) {
-  
+   let maior = - Infinity
+   let i = 0
+   while (i <=array.length){
+      if(array[i] > maior){
+         maior = array[i]
+      }
+      i++
+   } 
+   return maior
 }
-
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
 
