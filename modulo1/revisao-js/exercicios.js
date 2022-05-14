@@ -41,21 +41,33 @@ function retornaArrayOrdenado(array) {
 // Escreva uma função que receba um array de números e retorne 
 // um novo array com apenas os números pares desse array de entrada.
 function retornaNumerosPares(array) {
-   let novaarray
-  for(let index = 0; index <= array.length ; index ++){
-   if(array[index]%2){
-      novaarray.push(index)
-      // return novaarray
-  }
-   return novaarray
-
-   }
+   let novaarray = []
+   
+   for (let pares of array){
+       
+       if(pares % 2 === 0){
+        
+         novaarray.push(pares)     
+      }
+       }
+       return novaarray 
   
 }
 
 // EXERCÍCIO 05
+// Escreva uma função que recebe um array de números e retorna um array
+// com os números pares elevados a 2.
 function retornaNumerosParesElevadosADois(array) {
- 
+   let novaarray = []
+   
+   for (let pares of array){
+       
+       if(pares % 2 === 0){
+        
+         novaarray.push(pares**2)     
+      }
+       }
+       return novaarray 
 }
 
 // EXERCÍCIO 06
