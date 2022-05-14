@@ -1,0 +1,9 @@
+Resumo dos 7 passos essenciais
+
+	01. Precisamos prestar bastante atenção no enunciado, muitas vezes ele ja mostra como ele quer receber
+ o resultado no código, se é pra usar "return" ou "console.log", por exemplo;
+	02. Depois precisamos pensar nas entradas e saídas do código,retirar pelos verbos e funções, verificar 
+se tem alguma condicional;
+	03.Fazer um esquema visual,diagramas ajudam no entendimento do problema;
+	04.Criar um código que mesmo longo ou "feio" funcione como o cliente quer;
+	05.Depois de tudo funcionando refatorar, deixando o código mais entendivel e otimizado.
