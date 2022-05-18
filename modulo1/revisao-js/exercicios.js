@@ -85,18 +85,66 @@ function retornaMaiorNumero(array) {
    return maior
 }
 // EXERCÍCIO 07
+/* Escreva uma função que, dados dois números, retorne um objeto com as seguintes propriedades:
+- `maiorNumero` → contém o maior número
+- `maiorDivisivelPorMenor` → booleano indicando se o maior é divisível pelo menor
+- `diferenca` → contém a diferença entre eles (deve ser um **número positivo** sempre)
+⚠️   Obs: para os testes funcionarem, as propriedades do objeto devem possuir os exatos nomes acima */
 function retornaObjetoEntreDoisNumeros(num1, num2) {
-
+ /*   let maiorNumero = 0
+   let menorNumero = 0
+   let diferencaNumeros = maiorNumero - menorNumero
+   let maiorDivisivelPorMenor = maiorNumero/menorNumero
+   let valorBooleanoDivisao = false
+   let novoObjeto = {
+      
+   }
+   if (num1 > num2){
+         maiorNumero = num1
+         menorNumero = num2}
+         else {
+            maiorNumero = num2
+            menorNumero = num1
+         }
+     function conferindoDivisao (maiorDivisivelPorMenor){
+     if(maiorDivisivelPorMenor >0){
+        return valorBooleanoDivisao = true
+     }
+     return valorBooleanoDivisao = false
+   }
+     
+     novoObjeto.numeroMaior = maiorNumero
+     novoObjeto.maiorDivisivelPorMenor = valorBooleanoDivisao
+     novoObjeto.diferenca = diferencaNumeros
+     return novoObjeto */
 }
 
 // EXERCÍCIO 08
+//Escreva uma função que, recebendo um número N como parâmetro, retorne os N primeiros números pares
 function retornaNPrimeirosPares(n) {
+   
+   
+   let arrayParesDePura = []
+   for (let index = 0; index <= n+(n-1); index ++){
+      
+      if (index % 2 === 0){
+         arrayParesDePura.push(index)
+      }
+   } 
+   return arrayParesDePura
    
 }
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
-
+ if(ladoA === ladoB && ladoB === ladoC){
+    return "Equilátero"
+ } else if(ladoA ===ladoB || ladoB===ladoC || ladoA ===ladoC) {
+   return "Isósceles"
+}
+ else {
+    return "Escaleno"
+ } 
 }
 
 // EXERCÍCIO 10
