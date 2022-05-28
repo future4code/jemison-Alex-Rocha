@@ -1,0 +1,25 @@
+.foto-perfil{
+    max-width:30%;
+    
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+} 
+.social-midia{
+    max-width: 5%;
+    width: auto;
+    height: auto;
+}
+nav{
+    font-size: 16px;
+    background-color: rgb(0, 175, 175);
+}
+section{
+    
+    background-color:  rgb(0, 175, 175);
+    
+}
+footer{
+    font-size: 16px;
+    background-color: rgb(0, 175, 175);
+}
