@@ -1,25 +1,79 @@
-.foto-perfil{
-    max-width:30%;
+*{
     
+}
+header{
+    background-color: rgb(220,220,220);
+    
+    
+}
+.sub-nav{
+    
+    border-radius: 10%;
+    color: white;
+    padding: 10px;
+    background-color: rgb(220,220,220);
+}
+.foto-perfil{
+    max-width:300px;
     width: auto;
     height: auto;
     border-radius: 50%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
 } 
-.social-midia{
-    max-width: 5%;
-    width: auto;
-    height: auto;
+div>img{
+text-align: center;
 }
-nav{
-    font-size: 16px;
-    background-color: rgb(0, 175, 175);
-}
-section{
+
+
+.perfil{
     
     background-color:  rgb(0, 175, 175);
     
 }
+.nome-perfil{
+    text-align: center;
+}
+
+
+
+body{
+    background-color: dimgrey;
+    font-family: arial,Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+h2{
+    text-align:left;
+    text-shadow: 10px;
+   
+    font-family: arial,Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+p{
+    text-align: justify;
+    font-family: arial,Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+section{
+    
+}
+.social-midia{
+    max-width:50px;;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
 footer{
-    font-size: 16px;
-    background-color: rgb(0, 175, 175);
+background: rgb(0, 175, 175);
+width: 100%;
+height: auto;
+position:relative ;
+bottom: 0;
+
+
 }
