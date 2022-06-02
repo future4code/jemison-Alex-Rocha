@@ -34,7 +34,7 @@
                console.log ("Segundo número é maior")
           } */
           //questao4
-          let primeiroNumero = Number(prompt("Qual o primeiro número?"))
+         /*  let primeiroNumero = Number(prompt("Qual o primeiro número?"))
           let segundoNumero = Number(prompt("Qual o segundo número?"))
           const resultado = {
                maiorNumero:"",
@@ -61,4 +61,19 @@
          console.log (resultado)
           }else {
                console.log("Reinsira valores maiores que 0!")
-          }
+          } */
+
+          // Exercicios de Laços
+          // questao01
+          let numeros = Number(prompt("Insira numeros para a soma, o numero 0 finalizara o processo."))
+          
+          let soma = 0
+          
+       for(let index = 0;index< Infinity;index++){
+               if(numeros>0 && numeros !=0){
+               soma += numeros
+               }else{
+                    console.log(`A soma é ${soma}`)   
+               }
+          
+       }
