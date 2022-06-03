@@ -1,0 +1,22 @@
+.cabecalho{
+background-color: mediumvioletred;
+display: flex;
+align-items:center;
+height: 100%;
+width: 100%;
+}
+.cabecalho-icone{
+    height: 30px;
+    width: 30px;
+}
+.cabecalho-button{
+    position: fixed;
+    right: 0;
+}
+footer{
+    
+    position: fixed;
+    bottom: 0;
+    background: mediumvioletred;
+
+}
