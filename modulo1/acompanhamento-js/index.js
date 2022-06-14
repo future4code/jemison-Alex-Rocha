@@ -163,3 +163,106 @@
         
 //- [ ]  Imprima no terminal "Sim, é ímpar" **somente** se o número for ímpar.
 // - [ ]  Se não for, não faça **nada**
+
+/* let verificarImpar = (numero,imprime) => {
+if(numero %2 !== 0){
+imprime(numero)
+}else{
+     console.log("Insira um numero impar!")
+}
+function imprimirMensagem (resultado ) {
+     console.log(`O ${resultado} e impar !`)
+} */
+
+
+/* 
+2. Faça um programa que:
+    - [ ]  Tenha um array de números (quaisquer valores)
+    - [ ]  Imprima no console um novo array contendo apenas string:
+        
+        O formato das strings deve ser: `O elemento ${index} é ${valor}` */
+
+/*
+let lista = [1,2,3,4,5,70,7,8,9]
+ let mudancaDeArray = (array) =>{
+    let  novaArray = array.map((elemento,indice,array) =>{
+          return elemento,indice
+          
+     }
+     
+     )
+      for(let i = 0 ; i <novaArray.length ; i++){
+          console.log(`O elemento ${i} e ${novaArray[i]}`)
+     } 
+     mudancaDeArray = (lista)
+     
+} */
+
+
+/* 
+3. Faça um programa que:
+    - [ ]  Tenha uma lista de números (quaisquer valores)
+    - [ ]  Crie dois novos arrays:
+        - [ ]  Um só com números maiores que 10
+        - [ ]  Outro só com números pares
+ */
+
+     /*    let lista = [1,2,3,4,5,70,7,8,9,90,22,30]
+        function filtroLista(lista){
+
+        
+        let listaPares = lista.filter((elemento,indice,array) => {
+          return elemento % 2 === 0
+        }
+        )
+        let listaMaiorDoQue10 = lista.filter((elemento,indice,array) =>{
+          return elemento > 10
+        })
+        console.log (listaPares)
+        console.log(listaMaiorDoQue10)
+     } */
+
+
+    /*  4. Pegue o seguinte array de produtos:
+    
+   
+    const produtos = [
+    	{ nome: "Alface Lavada", categoria: "Hortifruti", preco: 2.5 },
+    	{ nome: "Guaraná 2l", categoria: "Bebidas", preco: 7.8 },
+    	{ nome: "Veja Multiuso", categoria: "Limpeza", preco: 12.6 },
+    	{ nome: "Dúzia de Banana", categoria: "Hortifruti", preco: 5.7 },
+    	{ nome: "Leite", categoria: "Bebidas", preco: 2.99 },
+    	{ nome: "Cândida", categoria: "Limpeza", preco: 3.30 },
+    	{ nome: "Detergente Ypê", categoria: "Limpeza", preco: 2.2 },
+    	{ nome: "Vinho Tinto", categoria: "Bebidas", preco: 55 },
+    	{ nome: "Berinjela kg", categoria: "Hortifruti", preco: 8.99 },
+    	{ nome: "Sabão em Pó", categoria: "Limpeza", preco: 10.80 }
+    ]
+    
+    
+    - [ ]  Crie uma lógica que:
+        - [ ]  **Filtre** os produtos pela **categoria Bebida**
+        - [ ]  **Mapeie** os **nomes** desses produtos
+        - [ ]  **Imprima no console** um novo **array** com os nomes das bebidas */
+
+
+      /*   const produtos = [
+          { nome: "Alface Lavada", categoria: "Hortifruti", preco: 2.5 },
+          { nome: "Guaraná 2l", categoria: "Bebidas", preco: 7.8 },
+          { nome: "Veja Multiuso", categoria: "Limpeza", preco: 12.6 },
+          { nome: "Dúzia de Banana", categoria: "Hortifruti", preco: 5.7 },
+          { nome: "Leite", categoria: "Bebidas", preco: 2.99 },
+          { nome: "Cândida", categoria: "Limpeza", preco: 3.30 },
+          { nome: "Detergente Ypê", categoria: "Limpeza", preco: 2.2 },
+          { nome: "Vinho Tinto", categoria: "Bebidas", preco: 55 },
+          { nome: "Berinjela kg", categoria: "Hortifruti", preco: 8.99 },
+          { nome: "Sabão em Pó", categoria: "Limpeza", preco: 10.80 }
+     ]
+        let listaBebidas = produtos.filter((elemento,indice,array) =>{
+          return elemento.categoria === "Bebidas"
+        }
+        )
+        let nomeBebidas = listaBebidas.map ((elemento,indice,array) =>{
+          return elemento.nome
+        })
+        console.log(nomeBebidas) */
