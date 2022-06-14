@@ -167,9 +167,8 @@
 /* let verificarImpar = (numero,imprime) => {
 if(numero %2 !== 0){
 imprime(numero)
-}else{
-     console.log("Insira um numero impar!")
 }
+
 function imprimirMensagem (resultado ) {
      console.log(`O ${resultado} e impar !`)
 } */
